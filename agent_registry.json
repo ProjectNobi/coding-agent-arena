@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "season": "s1",
+  "selection_method": "top_5_by_7day_avg_incentive",
+  "selection_note": "Agents auto-selected at cutoff. Top 5 by 7-day average on-chain incentive at metagraph snapshot. No manual registration required.",
+  "cutoff": null,
+  "cutoff_block": null,
+  "sn66_agents": [
+    {
+      "id": "sn66-1",
+      "subnet": "SN66",
+      "slot": 1,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn66-2",
+      "subnet": "SN66",
+      "slot": 2,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn66-3",
+      "subnet": "SN66",
+      "slot": 3,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn66-4",
+      "subnet": "SN66",
+      "slot": 4,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn66-5",
+      "subnet": "SN66",
+      "slot": 5,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    }
+  ],
+  "sn62_agents": [
+    {
+      "id": "sn62-1",
+      "subnet": "SN62",
+      "slot": 1,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn62-2",
+      "subnet": "SN62",
+      "slot": 2,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn62-3",
+      "subnet": "SN62",
+      "slot": 3,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn62-4",
+      "subnet": "SN62",
+      "slot": 4,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    },
+    {
+      "id": "sn62-5",
+      "subnet": "SN62",
+      "slot": 5,
+      "hotkey": null,
+      "commit_sha256": null,
+      "repo_url": null,
+      "model_manifest": null,
+      "registered_at": null,
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,1642 @@
+{
+  "schema_version": "1.0",
+  "note": "Placeholder IDs. Real SWE-bench Verified instance IDs will be populated from the official dataset before Day -7.",
+  "pools_are_disjoint": true,
+  "verified_disjoint_at": null,
+  "meta": {
+    "total_tasks": 500,
+    "season": "s1",
+    "season_matches_count": 250,
+    "qualifier_count": 40,
+    "reserve_count": 170,
+    "holdout_count": 40
+  },
+  "season_matches": [
+    {
+      "id": "django__django-10000",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10001",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10002",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10003",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10004",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10005",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10006",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10007",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10008",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10009",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10010",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10011",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10012",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10013",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10014",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10015",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10016",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10017",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10018",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10019",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10020",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10021",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10022",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10023",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10024",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10025",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10026",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10027",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10028",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10029",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10030",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10031",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10032",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10033",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10034",
+      "domain": "django",
+      "difficulty": "easy"
+    },
+    {
+      "id": "django__django-10035",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10036",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10037",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "django__django-10038",
+      "domain": "django",
+      "difficulty": "hard"
+    },
+    {
+      "id": "django__django-10039",
+      "domain": "django",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10000",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10001",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10002",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10003",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10004",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10005",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10006",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10007",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10008",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10009",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10010",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10011",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10012",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10013",
+      "domain": "scikit-learn",
+      "difficulty": "hard"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10014",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10015",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10016",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10017",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10018",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10019",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10020",
+      "domain": "scikit-learn",
+      "difficulty": "hard"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10021",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10022",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10023",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10024",
+      "domain": "scikit-learn",
+      "difficulty": "hard"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10025",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10026",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10027",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10028",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10029",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10030",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10031",
+      "domain": "scikit-learn",
+      "difficulty": "hard"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10032",
+      "domain": "scikit-learn",
+      "difficulty": "hard"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10033",
+      "domain": "scikit-learn",
+      "difficulty": "easy"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-10034",
+      "domain": "scikit-learn",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10000",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10001",
+      "domain": "matplotlib",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matplotlib__matplotlib-10002",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10003",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10004",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10005",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10006",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10007",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10008",
+      "domain": "matplotlib",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matplotlib__matplotlib-10009",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10010",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10011",
+      "domain": "matplotlib",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matplotlib__matplotlib-10012",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10013",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10014",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10015",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10016",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10017",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10018",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10019",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10020",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10021",
+      "domain": "matplotlib",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matplotlib__matplotlib-10022",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10023",
+      "domain": "matplotlib",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matplotlib__matplotlib-10024",
+      "domain": "matplotlib",
+      "difficulty": "hard"
+    },
+    {
+      "id": "matplotlib__matplotlib-10025",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "matplotlib__matplotlib-10026",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10027",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10028",
+      "domain": "matplotlib",
+      "difficulty": "medium"
+    },
+    {
+      "id": "matplotlib__matplotlib-10029",
+      "domain": "matplotlib",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10000",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10001",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10002",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10003",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10004",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10005",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10006",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10007",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10008",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10009",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10010",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10011",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10012",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10013",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10014",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10015",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10016",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10017",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10018",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10019",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10020",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10021",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10022",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10023",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10024",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10025",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10026",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10027",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10028",
+      "domain": "sympy",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sympy__sympy-10029",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10030",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10031",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sympy__sympy-10032",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10033",
+      "domain": "sympy",
+      "difficulty": "medium"
+    },
+    {
+      "id": "sympy__sympy-10034",
+      "domain": "sympy",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1000",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1001",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1002",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1003",
+      "domain": "pytest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pytest-dev__pytest-1004",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1005",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1006",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1007",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1008",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1009",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1010",
+      "domain": "pytest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pytest-dev__pytest-1011",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1012",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1013",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1014",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1015",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1016",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1017",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1018",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1019",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1020",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1021",
+      "domain": "pytest",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pytest-dev__pytest-1022",
+      "domain": "pytest",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pytest-dev__pytest-1023",
+      "domain": "pytest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pytest-dev__pytest-1024",
+      "domain": "pytest",
+      "difficulty": "hard"
+    },
+    {
+      "id": "psf__requests-1000",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1001",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1002",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1003",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1004",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1005",
+      "domain": "requests",
+      "difficulty": "hard"
+    },
+    {
+      "id": "psf__requests-1006",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1007",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1008",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1009",
+      "domain": "requests",
+      "difficulty": "hard"
+    },
+    {
+      "id": "psf__requests-1010",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1011",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1012",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1013",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1014",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1015",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1016",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "psf__requests-1017",
+      "domain": "requests",
+      "difficulty": "hard"
+    },
+    {
+      "id": "psf__requests-1018",
+      "domain": "requests",
+      "difficulty": "easy"
+    },
+    {
+      "id": "psf__requests-1019",
+      "domain": "requests",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1000",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1001",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1002",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1003",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1004",
+      "domain": "flask",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1005",
+      "domain": "flask",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1006",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1007",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1008",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1009",
+      "domain": "flask",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1010",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1011",
+      "domain": "flask",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1012",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1013",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1014",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1015",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1016",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1017",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pallets__flask-1018",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1019",
+      "domain": "flask",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1020",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1021",
+      "domain": "flask",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pallets__flask-1022",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1023",
+      "domain": "flask",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pallets__flask-1024",
+      "domain": "flask",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10000",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10001",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10002",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10003",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10004",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10005",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10006",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10007",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10008",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10009",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10010",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10011",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10012",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10013",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10014",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10015",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10016",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10017",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10018",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10019",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10020",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10021",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10022",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10023",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10024",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10025",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10026",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10027",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10028",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10029",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10030",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10031",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10032",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10033",
+      "domain": "pandas",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pandas-dev__pandas-10034",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10035",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10036",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10037",
+      "domain": "pandas",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pandas-dev__pandas-10038",
+      "domain": "pandas",
+      "difficulty": "medium"
+    },
+    {
+      "id": "pandas-dev__pandas-10039",
+      "domain": "pandas",
+      "difficulty": "easy"
+    }
+  ],
+  "qualifier": [
+    {
+      "id": "django__django-13000",
+      "domain": "django"
+    },
+    {
+      "id": "django__django-13001",
+      "domain": "django"
+    },
+    {
+      "id": "django__django-13002",
+      "domain": "django"
+    },
+    {
+      "id": "django__django-13003",
+      "domain": "django"
+    },
+    {
+      "id": "django__django-13004",
+      "domain": "django"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13000",
+      "domain": "scikit-learn"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13001",
+      "domain": "scikit-learn"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13002",
+      "domain": "scikit-learn"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13003",
+      "domain": "scikit-learn"
+    },
+    {
+      "id": "scikit-learn__scikit-learn-13004",
+      "domain": "scikit-learn"
+    },
+    {
+      "id": "matplotlib__matplotlib-13000",
+      "domain": "matplotlib"
+    },
+    {
+      "id": "matplotlib__matplotlib-13001",
+      "domain": "matplotlib"
+    },
+    {
+      "id": "matplotlib__matplotlib-13002",
+      "domain": "matplotlib"
+    },
+    {
+      "id": "matplotlib__matplotlib-13003",
+      "domain": "matplotlib"
+    },
+    {
+      "id": "matplotlib__matplotlib-13004",
+      "domain": "matplotlib"
+    },
+    {
+      "id": "sympy__sympy-13000",
+      "domain": "sympy"
+    },
+    {
+      "id": "sympy__sympy-13001",
+      "domain": "sympy"
+    },
+    {
+      "id": "sympy__sympy-13002",
+      "domain": "sympy"
+    },
+    {
+      "id": "sympy__sympy-13003",
+      "domain": "sympy"
+    },
+    {
+      "id": "sympy__sympy-13004",
+      "domain": "sympy"
+    },
+    {
+      "id": "pytest-dev__pytest-4000",
+      "domain": "pytest"
+    },
+    {
+      "id": "pytest-dev__pytest-4001",
+      "domain": "pytest"
+    },
+    {
+      "id": "pytest-dev__pytest-4002",
+      "domain": "pytest"
+    },
+    {
+      "id": "pytest-dev__pytest-4003",
+      "domain": "pytest"
+    },
+    {
+      "id": "pytest-dev__pytest-4004",
+      "domain": "pytest"
+    },
+    {
+      "id": "psf__requests-4000",
+      "domain": "requests"
+    },
+    {
+      "id": "psf__requests-4001",
+      "domain": "requests"
+    },
+    {
+      "id": "psf__requests-4002",
+      "domain": "requests"
+    },
+    {
+      "id": "psf__requests-4003",
+      "domain": "requests"
+    },
+    {
+      "id": "psf__requests-4004",
+      "domain": "requests"
+    },
+    {
+      "id": "pallets__flask-4000",
+      "domain": "flask"
+    },
+    {
+      "id": "pallets__flask-4001",
+      "domain": "flask"
+    },
+    {
+      "id": "pallets__flask-4002",
+      "domain": "flask"
+    },
+    {
+      "id": "pallets__flask-4003",
+      "domain": "flask"
+    },
+    {
+      "id": "pallets__flask-4004",
+      "domain": "flask"
+    },
+    {
+      "id": "pandas-dev__pandas-13000",
+      "domain": "pandas"
+    },
+    {
+      "id": "pandas-dev__pandas-13001",
+      "domain": "pandas"
+    },
+    {
+      "id": "pandas-dev__pandas-13002",
+      "domain": "pandas"
+    },
+    {
+      "id": "pandas-dev__pandas-13003",
+      "domain": "pandas"
+    },
+    {
+      "id": "pandas-dev__pandas-13004",
+      "domain": "pandas"
+    }
+  ],
+  "reserve": [
+    "scikit-learn__scikit-learn-12013",
+    "scikit-learn__scikit-learn-12014",
+    "scikit-learn__scikit-learn-12015",
+    "scikit-learn__scikit-learn-12016",
+    "scikit-learn__scikit-learn-12017",
+    "scikit-learn__scikit-learn-12018",
+    "scikit-learn__scikit-learn-12019",
+    "scikit-learn__scikit-learn-12020",
+    "scikit-learn__scikit-learn-12021",
+    "scikit-learn__scikit-learn-12022",
+    "scikit-learn__scikit-learn-12023",
+    "scikit-learn__scikit-learn-12024",
+    "scikit-learn__scikit-learn-12025",
+    "scikit-learn__scikit-learn-12026",
+    "matplotlib__matplotlib-12000",
+    "matplotlib__matplotlib-12001",
+    "matplotlib__matplotlib-12002",
+    "matplotlib__matplotlib-12003",
+    "matplotlib__matplotlib-12004",
+    "matplotlib__matplotlib-12005",
+    "matplotlib__matplotlib-12006",
+    "matplotlib__matplotlib-12007",
+    "matplotlib__matplotlib-12008",
+    "matplotlib__matplotlib-12009",
+    "matplotlib__matplotlib-12010",
+    "matplotlib__matplotlib-12011",
+    "matplotlib__matplotlib-12012",
+    "matplotlib__matplotlib-12013",
+    "matplotlib__matplotlib-12014",
+    "matplotlib__matplotlib-12015",
+    "matplotlib__matplotlib-12016",
+    "matplotlib__matplotlib-12017",
+    "matplotlib__matplotlib-12018",
+    "matplotlib__matplotlib-12019",
+    "matplotlib__matplotlib-12020",
+    "matplotlib__matplotlib-12021",
+    "matplotlib__matplotlib-12022",
+    "matplotlib__matplotlib-12023",
+    "matplotlib__matplotlib-12024",
+    "matplotlib__matplotlib-12025",
+    "matplotlib__matplotlib-12026",
+    "sympy__sympy-12000",
+    "sympy__sympy-12001",
+    "sympy__sympy-12002",
+    "sympy__sympy-12003",
+    "sympy__sympy-12004",
+    "sympy__sympy-12005",
+    "sympy__sympy-12006",
+    "sympy__sympy-12007",
+    "sympy__sympy-12008",
+    "sympy__sympy-12009",
+    "sympy__sympy-12010",
+    "sympy__sympy-12011",
+    "sympy__sympy-12012",
+    "sympy__sympy-12013",
+    "sympy__sympy-12014",
+    "sympy__sympy-12015",
+    "sympy__sympy-12016",
+    "sympy__sympy-12017",
+    "sympy__sympy-12018",
+    "sympy__sympy-12019",
+    "sympy__sympy-12020",
+    "sympy__sympy-12021",
+    "sympy__sympy-12022",
+    "sympy__sympy-12023",
+    "sympy__sympy-12024",
+    "sympy__sympy-12025",
+    "sympy__sympy-12026",
+    "pytest-dev__pytest-3000",
+    "pytest-dev__pytest-3001",
+    "pytest-dev__pytest-3002",
+    "pytest-dev__pytest-3003",
+    "pytest-dev__pytest-3004",
+    "pytest-dev__pytest-3005",
+    "pytest-dev__pytest-3006",
+    "pytest-dev__pytest-3007",
+    "pytest-dev__pytest-3008",
+    "pytest-dev__pytest-3009",
+    "pytest-dev__pytest-3010",
+    "pytest-dev__pytest-3011",
+    "pytest-dev__pytest-3012",
+    "pytest-dev__pytest-3013",
+    "pytest-dev__pytest-3014",
+    "pytest-dev__pytest-3015",
+    "pytest-dev__pytest-3016",
+    "pytest-dev__pytest-3017",
+    "pytest-dev__pytest-3018",
+    "pytest-dev__pytest-3019",
+    "pytest-dev__pytest-3020",
+    "pytest-dev__pytest-3021",
+    "pytest-dev__pytest-3022",
+    "pytest-dev__pytest-3023",
+    "pytest-dev__pytest-3024",
+    "pytest-dev__pytest-3025",
+    "pytest-dev__pytest-3026",
+    "psf__requests-3000",
+    "psf__requests-3001",
+    "psf__requests-3002",
+    "psf__requests-3003",
+    "psf__requests-3004",
+    "psf__requests-3005",
+    "psf__requests-3006",
+    "psf__requests-3007",
+    "psf__requests-3008",
+    "psf__requests-3009",
+    "psf__requests-3010",
+    "psf__requests-3011",
+    "psf__requests-3012",
+    "psf__requests-3013",
+    "psf__requests-3014",
+    "psf__requests-3015",
+    "psf__requests-3016",
+    "psf__requests-3017",
+    "psf__requests-3018",
+    "psf__requests-3019",
+    "psf__requests-3020",
+    "psf__requests-3021",
+    "psf__requests-3022",
+    "psf__requests-3023",
+    "psf__requests-3024",
+    "psf__requests-3025",
+    "psf__requests-3026",
+    "pallets__flask-3000",
+    "pallets__flask-3001",
+    "pallets__flask-3002",
+    "pallets__flask-3003",
+    "pallets__flask-3004",
+    "pallets__flask-3005",
+    "pallets__flask-3006",
+    "pallets__flask-3007",
+    "pallets__flask-3008",
+    "pallets__flask-3009",
+    "pallets__flask-3010",
+    "pallets__flask-3011",
+    "pallets__flask-3012",
+    "pallets__flask-3013",
+    "pallets__flask-3014",
+    "pallets__flask-3015",
+    "pallets__flask-3016",
+    "pallets__flask-3017",
+    "pallets__flask-3018",
+    "pallets__flask-3019",
+    "pallets__flask-3020",
+    "pallets__flask-3021",
+    "pallets__flask-3022",
+    "pallets__flask-3023",
+    "pallets__flask-3024",
+    "pallets__flask-3025",
+    "pallets__flask-3026",
+    "pandas-dev__pandas-12000",
+    "pandas-dev__pandas-12001",
+    "pandas-dev__pandas-12002",
+    "pandas-dev__pandas-12003",
+    "pandas-dev__pandas-12004",
+    "pandas-dev__pandas-12005",
+    "pandas-dev__pandas-12006",
+    "pandas-dev__pandas-12007",
+    "pandas-dev__pandas-12008",
+    "pandas-dev__pandas-12009",
+    "pandas-dev__pandas-12010",
+    "pandas-dev__pandas-12011",
+    "pandas-dev__pandas-12012",
+    "pandas-dev__pandas-12013",
+    "pandas-dev__pandas-12014",
+    "pandas-dev__pandas-12015",
+    "pandas-dev__pandas-12016",
+    "pandas-dev__pandas-12017",
+    "pandas-dev__pandas-12018",
+    "pandas-dev__pandas-12019",
+    "pandas-dev__pandas-12020"
+  ],
+  "holdout": [
+    "django__django-15000",
+    "django__django-15001",
+    "django__django-15002",
+    "django__django-15003",
+    "django__django-15004",
+    "django__django-15005",
+    "scikit-learn__scikit-learn-15000",
+    "scikit-learn__scikit-learn-15001",
+    "scikit-learn__scikit-learn-15002",
+    "scikit-learn__scikit-learn-15003",
+    "scikit-learn__scikit-learn-15004",
+    "scikit-learn__scikit-learn-15005",
+    "matplotlib__matplotlib-15000",
+    "matplotlib__matplotlib-15001",
+    "matplotlib__matplotlib-15002",
+    "matplotlib__matplotlib-15003",
+    "matplotlib__matplotlib-15004",
+    "matplotlib__matplotlib-15005",
+    "sympy__sympy-15000",
+    "sympy__sympy-15001",
+    "sympy__sympy-15002",
+    "sympy__sympy-15003",
+    "sympy__sympy-15004",
+    "sympy__sympy-15005",
+    "pytest-dev__pytest-6000",
+    "pytest-dev__pytest-6001",
+    "pytest-dev__pytest-6002",
+    "pytest-dev__pytest-6003",
+    "pytest-dev__pytest-6004",
+    "pytest-dev__pytest-6005",
+    "psf__requests-6000",
+    "psf__requests-6001",
+    "psf__requests-6002",
+    "psf__requests-6003",
+    "psf__requests-6004",
+    "psf__requests-6005",
+    "pallets__flask-6000",
+    "pallets__flask-6001",
+    "pallets__flask-6002",
+    "pallets__flask-6003"
+  ]
+}
