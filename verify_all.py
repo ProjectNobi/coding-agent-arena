@@ -97,6 +97,17 @@ def verify_draw_tasks(registry: dict) -> None:
             champ_results.append(result)
     check(len(all_results) == 50, "draw --all: 50 results produced")
 
+    # Canonical vectors are defined and complete
+    check(len(dt.CANONICAL_VECTORS) == 3, "draw_tasks: 3 canonical vectors defined")
+    for mid in [1, 25, 50]:
+        check(
+            mid in dt.CANONICAL_VECTORS
+            and "seed_hex" in dt.CANONICAL_VECTORS[mid]
+            and "tasks_hash" in dt.CANONICAL_VECTORS[mid]
+            and len(dt.CANONICAL_VECTORS[mid]["seed_hex"]) == 64,
+            f"draw_tasks: canonical vector for match {mid} is complete"
+        )
+
 
 # ---------------------------------------------------------------------------
 # 2. schedule — uses real module functions
@@ -111,6 +122,20 @@ def verify_schedule(agent_registry: dict) -> None:
     o2 = sc.build_schedule_output("s1", agent_registry)
     check(o1["matches"] == o2["matches"], "schedule: deterministic")
 
+    # dropped_matchup field
+    dm = o1.get("dropped_matchup")
+    check(dm is not None, "schedule: dropped_matchup field present")
+    if dm:
+        check(
+            all(k in dm for k in ["agent_a_id", "agent_b_id", "home_subnet", "note"]),
+            "schedule: dropped_matchup has all required fields",
+            f"keys present: {list(dm.keys())}"
+        )
+
+    # Registry hash fields present (None is valid pre-season)
+    check("task_registry_sha256" in o1, "schedule: task_registry_sha256 field present")
+    check("agent_registry_sha256" in o1, "schedule: agent_registry_sha256 field present")
+
     matches = o1["matches"]
     regular = [m for m in matches if not m["championship"]]
     champ = [m for m in matches if m["championship"]]
@@ -120,9 +145,16 @@ def verify_schedule(agent_registry: dict) -> None:
     check(champ[0]["match_id"] == sc.CHAMPIONSHIP_MATCH_ID,
           f"schedule: championship is match_id {sc.CHAMPIONSHIP_MATCH_ID}")
 
-    # Pair distribution: 24×2 + 1×1 = 49 regular matches
+    # SN66/SN62 agent disjointness
     sn66_ids = {a["id"] for a in agent_registry["sn66_agents"]}
     sn62_ids = {a["id"] for a in agent_registry["sn62_agents"]}
+    check(
+        len(sn66_ids & sn62_ids) == 0,
+        "schedule: SN66 and SN62 agent IDs are disjoint",
+        f"overlap: {sn66_ids & sn62_ids}"
+    )
+
+    # Pair distribution: 24×2 + 1×1 = 49 regular matches
     pair_count: dict[tuple, int] = {}
     for m in regular:
         a, b = m["agent_a"]["id"], m["agent_b"]["id"]
